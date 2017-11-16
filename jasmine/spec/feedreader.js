@@ -118,7 +118,7 @@ $(function() {
          $origContent = $('.feed .entry');
          console.log($origContent.html());
          loadFeed(1, done);
-       })
+       });
      });
 
      it('when new feed is loaded content actually changes', function(done) {
