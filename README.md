@@ -3,7 +3,7 @@
 ## Table of Contents
 
 * [Instructions](#instructions)
-* [Project Overview](#project)
+* [Project Overview](#project-overview)
 * [Contributing](#contributing)
 * [License](#license)
 * [Authors](#authors)
