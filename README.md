@@ -3,7 +3,7 @@
 ## Table of Contents
 
 * [Instructions](#instructions)
-* [Project Overview](#project overview)
+* [Project Overview](#project)
 * [Contributing](#contributing)
 * [License](#license)
 * [Authors](#authors)
@@ -22,11 +22,11 @@ Whether you work in an organization that uses test-driven development or in an o
 
 ## Contributing
 
-We encourage you to contribute to the Memory Game project.  For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
+We encourage you to contribute to the RSS Feed Reader project.  For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
 
-Memory Game is released under the [MIT License](https://opensource.org/licenses/MIT).
+RSS Feed Reader project is released under the [MIT License](https://opensource.org/licenses/MIT).
 
 ## Authors
 
