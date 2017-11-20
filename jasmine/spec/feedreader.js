@@ -43,13 +43,12 @@ $(function() {
      * and that the name is not empty.
      */
     it('names are defined', function() {
-      for (var i = 0; i < allFeeds.length; i++) {
-        expect(allFeeds[i].name).toBeDefined();
-        expect(allFeeds[i].name.length).not.toBe(0);
-      }
+      allFeeds.forEach(function(feed) {
+        expect(feed.name).toBeDefined();
+        expect(feed.name.length).not.toBe(0);
+      });
     });
   });
-
 
   /* A test suite for "The hamburger menu" */
   describe('Hamburger Menu', function() {
@@ -88,13 +87,12 @@ $(function() {
 
     //use beforeEach to setup async call to loadFeed
     beforeEach(function(done) {
-      loadFeed(1, done);
+      loadFeed(0, done);
     });
 
-    it("there is at least one .entry element within the .feed container", function(done) {
+    it("there is at least one .entry element within the .feed container", function() {
       var entries = $('.feed .entry').length;
       expect(entries).toBeGreaterThan(0);
-      done();
     });
   });
 
@@ -122,7 +120,7 @@ $(function() {
 
      it('when new feed is loaded content actually changes', function(done) {
        $newContent = $('.feed .entry');
-       expect($newContent.html()).not.toBe($origContent);
+       expect($newContent.html()).not.toBe($origContent.html());
        done();
      });
   });
